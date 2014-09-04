@@ -1,0 +1,713 @@
+html
+{
+    background-color: white; 
+}
+h2
+{
+    font-family:century gothic;
+}
+body
+{
+    margin-left: auto;
+    margin-right: auto;
+    width:1000px;
+    background: white;
+}
+
+#titlebar
+{
+    font-family: helvetica;
+/*    border-bottom-color: silver;*/
+    font-size: 14px;
+    background-color: white;
+    width: 1000px;
+    position: fixed;
+    padding-top:20px;
+    margin-top: -29px;
+    height:93px;
+    border-bottom: black solid 3px;
+}
+
+#reuptitlebar.blackborder
+{
+    font-family: helvetica;
+/*    border-bottom-color: silver;*/
+    font-size: 14px;
+    background-color: white;
+    width: 1000px;
+    position: fixed;
+    z-index: 99;
+    padding-top:20px;
+    margin-top: -29px;
+    height:93px;
+    border-bottom:black solid 3px;
+}
+#reuptitlebar
+{
+    font-family: helvetica;
+/*    border-bottom-color: silver;*/
+    font-size: 14px;
+    background-color: white;
+    width: 1000px;
+    position: fixed;
+    z-index: 99;
+    padding-top:20px;
+    margin-top: -29px;
+    height:93px;
+/*    border-bottom:green solid 3px;*/
+}
+
+.borderClass{
+/*
+  border-bottom-color: black;
+  border-bottom-width:2px;
+  border-bottom-style: solid;
+*/
+    box-shadow: 0 4px 5px -6px #232323;
+    -moz-box-shadow: 0 4px 5px -6px #232323;
+    -webkit-box-shadow: 0 4px 5px -6px #232323;
+  /** OR USE INLINE
+  border: 1px solid #C1E0FF;
+  **/
+}
+
+.round {
+    width: 240px;
+    border-radius: 4px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px;// 25px;
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+    z-index: 5;
+    
+font-variant: small-caps;
+text-transform: uppercase;
+}
+
+#reup.round {
+    width:325px;
+    border-radius: 4px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 25px;
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+    z-index: 5;
+    
+font-variant: small-caps;
+text-transform: uppercase;
+}
+
+.corner {
+/*    position: absolute;*/
+    color:white;
+    top: 3px;
+    left: 5px;
+    height: 25px;
+    width: 25px;
+    z-index: 10;
+    border-radius: 12.5px;
+    border: none;
+    background: url('search.png');
+    background-size: 25px 25px;
+}.corner2 {
+/*    position: absolute;*/
+    color:white;
+    font-weight: 700;
+    font-size: 16px;
+    top: 3px;
+    left: 5px;
+    height: 25px;
+    width: 125px;
+    z-index: 10;
+    border-radius: 12.5px;
+    border: none;
+    background: orange;
+    background-size: 25px 25px;
+/*    margin-left:330px;*/
+}
+
+.search {
+    position: relative;
+    width: 100px;
+    height: 30px;
+}
+#lower
+{
+
+    background-color: none;
+    width:100%;
+    position: static;
+    padding-top: 54px;
+}
+#reup_text
+{
+    height:50px;
+    background:url('bigstiches.jpg');
+    background-size: contain;
+    color: white;
+    font-family: century gothic; 
+    padding-top: 10px;
+    font-size:33px;
+    margin-top:30px;
+    border-bottom: black solid 1px;
+    position: fixed;
+    z-index: 89;
+    width:1000px;
+}
+
+
+
+#hometitlebar
+{
+    font-family: helvetica;
+/*    border-bottom-color: silver;*/
+    font-size: 14px;
+    background-color: white;
+    width: 1000px;
+    position: fixed;
+    z-index: 99;
+    padding-top:20px;
+    margin-top: -29px;
+    height:93px;
+    border-bottom: black solid 3px;
+
+}
+
+#bgc{
+
+}
+#logo
+{
+    color: #2c3e50;
+    font-family: helvetica ;
+    font-size: 20px;
+    padding-top: 8px;
+    width: 19%;
+    z-index: 100;
+}
+
+#logo:hover
+{
+    opacity: 1;
+}
+
+@font-face{
+    font-family: "Gurmukhi MN";
+    src: "Gurmukhi MN.ttc"; /* IE */
+}
+
+@font-face {
+    font-family: stitches;
+    src: url(stitches.ttf);
+}
+#title_text 
+{
+    padding-top: 10px;
+    font-size: 11px;
+    float:right;
+    font-family: Century Gothic;
+/*    font-weight: 700;*/
+}
+#blackbar
+{
+    margin-left: -5px;
+    height: 17px;
+    width: 100%;
+    
+}
+
+#topnav
+{
+    margin-left: auto;
+    margin-right: auto;
+    width:1000px;
+    position:absolute;
+    margin-top:-4px;
+    	z-index: 99; /* Makes sure that your menu remains on top of other page elements */
+/*    border-top: solid px black;*/
+
+}
+#topnav a
+{
+    text-decoration:none ;
+    color:inherit;
+    font-family: Gurmukhi MN;
+    z-index: 1;
+
+}
+
+
+#topnav a:link{
+    display: block;
+    padding-top:9px;
+    padding-bottom: 9px;
+    padding-left: 18.5px;
+    padding-right: 18px;
+    text-align: center;
+    z-index: 1;
+
+}
+
+
+
+#topnav ul
+{
+	list-style-type: none;
+	margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    width:100%;
+    z-index: 1;
+
+}
+#topnav li
+{
+    float: left;
+    //display: inline;
+    background-color: white;
+    //border-top: solid 5px black;
+    text-decoration: bold;
+    width: 11.11%;
+}
+
+
+#topnav li ul
+{
+    height: auto;									
+    margin: 0; /* Aligns drop-down box underneath the menu item */
+    padding: 0; /* Aligns drop-down box underneath the menu item */	
+}
+#topnav li ul li
+{
+    
+
+    float:none;
+    text-align: center;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    font-family:Gurmukhi MN;
+    //border-top: 1px solid white;
+    font-size: 12px;
+    background-color: black;
+    color:white;
+    width: 100%;
+
+
+}
+
+#topnav li ul li a:hover
+{
+    color: orange;
+}
+li#callnow 
+{
+    background: url('brownstitches.png');
+    background-size: 141px 37px;
+    color: white;
+    font-family: century;
+    text-decoration: bold;
+    width: 14%;
+    
+}
+
+
+
+li#sofas
+{
+    width: 10%;
+}
+li#lamps
+{
+    width:9%;
+}
+li#dining
+{
+    width:9%;
+}
+li#home
+{
+    width:8%;
+}
+li#other
+{
+    width:14%;
+}
+li#callnow a
+{
+    padding-top: 40px;
+}
+li#reupholstery
+{
+    background: url('stitches.png');
+    background-size: 141px 37px;
+    color: white;
+    text-decoration: bold;
+    width:14%;
+    
+}
+li#bed
+{
+    width:11%;
+}
+li#tables
+{
+    width:11%;
+}
+#topnav li:hover
+{
+    color: white;
+    background-color: black;
+    z-index: 50;
+}
+
+#topnav li:hover > #lamplinks a
+{
+color:black;
+}
+#topnav:hover
+{
+}
+
+
+
+#topnav li ul 	{
+       
+		display: none;  /* Hides the drop-down menu */
+		height: auto;									
+		margin: 0; /* Aligns drop-down box underneath the menu item */
+		padding: 0; /* Aligns drop-down box underneath the menu item */	
+		}	
+
+#topnav li:hover ul 	{
+            display: block ; /* Displays the drop-down box when the menu item is hovered over */
+    background-color: black;
+                        }
+
+
+#bodycontent
+{
+    height:413px;
+/*    margin-top:px;*/
+    background: black;
+    border-top: black 3px solid; 
+    
+}
+
+#lampcontents img
+{
+    width: 20px;
+}
+#contents, #messy_contents
+{
+    background-color: none;
+    width:100%;
+    position: static;
+    padding-top: 56px;
+
+}
+
+#lamplinks{ 
+    
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    
+}
+
+#lamplinks ul
+{
+    list-style-type: none;
+    width:95%;
+    display:table;
+/*    table-layout: fixed;*/
+    margin-top:22px;
+    padding-top:6px;
+    padding-bottom:6px;
+}
+
+#lamplinks li
+{
+    display:table-cell;
+    //float: left;
+    text-align:center;
+    width: auto;
+}
+#lamplinks a
+{
+    text-decoration: none;
+    color: white;
+    font-family: century gothic;
+/*
+    padding-right: 22px;    
+    padding-left:21px;
+*/
+    background-color: black;
+
+    font-size:14px;
+    width:auto;
+
+}
+
+#lowerlamp
+{
+    background-color: none;
+    width:100%;
+    position: static;
+    padding-top: 115px;
+    margin-left:30px;   
+}
+
+#lowerlamp a
+{
+    font-family: calibri;
+    text-decoration: none;
+    color:black;   
+}
+
+#lowerlamp #lamplinks a
+{
+    color: white;
+}
+#contents a, #messy_contents a
+{
+    font-family: calibri;
+    text-decoration: none;
+    color:black;    
+}
+
+
+#homecontents img
+{
+    width: 100%;
+    height: 200px;
+}
+
+#contents img
+{
+    width: 100%;
+    height: 130px;
+}
+
+#messy_contents img
+{
+    width: 100%;
+    height: auto;
+}
+
+#contents-table
+{
+    margin-left:-3px;
+    
+    margin-right:-3px;
+    
+    width:1006px;
+    margin-top: 28px;
+}
+
+#contents-table-home
+{
+    width:1000px;
+}
+
+
+.carousel
+{
+    margin-top:31px;
+    height: 350px;
+    width: 1000px;
+    overflow: hidden;
+    border-bottom:black 3px solid;
+}
+
+.carousel2
+{
+    margin-top:31px;
+    height: 350px;
+    width: 1000px;
+    overflow: hidden;
+}
+.text_carousel
+{
+    background: url('bigstiches.jpg');
+    background-size: contain;
+    height:40px;
+    margin-top:-30px;
+    color:white;
+    text-align: center;
+    font-family: century gothic;
+    vertical-align: middle;
+    font-size:30px;
+}
+#reup.carousel2
+{
+    margin-top:50px;
+    overflow:hidden;
+    height:410px;   
+}
+
+.carousel img
+{
+    width:1000px;
+    
+}.carousel2 img
+{
+    width:1000px;
+    
+}
+#message_slide
+{
+    position:absolute; 
+   margin-left: 21px; 
+    font-family: century gothic;
+    font-weight: 700;
+    height:50px;
+    margin-top:20px;
+    font-size: 11px;
+    float: left;
+
+}
+
+#buttons
+{
+    margin-left: 90px;
+    padding-top: 5px;
+    float:left;
+}
+#buttons a
+{
+    text-decoration: none;
+}
+#specialstitle, #messagetitle
+{
+    font-family: helvetica;
+    font-size: 20px;
+
+}
+#footer {
+    color: white;
+    padding-top:10px;
+    text-align: center;
+    background: black;
+    background-size: 200px 66px;
+    height:56px;
+    font-size: 12px;
+    font-family: calibri;
+    margin-bottom: -10px;
+    border-top:black solid 3px;
+}
+
+#price
+{
+    color:green;
+    float:right;
+    line-height: 1.255 !important;
+    font-family: Arial,sans-serif;
+    padding-left:10px;
+
+}
+
+#price2
+{
+    color:green;
+    line-height: 1.255 !important;
+    font-family: Arial,sans-serif;
+    padding-left:10px;
+}
+
+#orderform
+{
+    padding-top:20px;
+    margin-top:31px;
+}
+
+#reuplower
+{
+    border-top: 3px black solid;
+    margin-top:-33px;
+}
+#reuptable
+{
+    padding-top:20px;
+    background:url('http://www.camirafabrics.com/sites/default/files/UNY13.jpg');
+/*    background-size: 300px;  */
+    width:1000px;
+    color:white;
+}
+
+#orderbutton
+{
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    font-family: calibri ;
+}
+img:hover {
+    
+}
+#upload
+{
+/*    background: url('stitches.png');*/
+    background-size: 360px 40px;
+    color: white;
+    font-size: 25px;
+    font-family: calibri ;
+    width:355px;
+}
+
+
+
+#back-top {
+	position: fixed;
+	bottom: -16px;
+	margin-left: 1010px;
+}
+
+#back-top a {
+	width: 50px;
+	display: block;
+	text-align: center;
+	font: 11px/100% Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #bbb;
+
+	/* transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover {
+	color: #000;
+}
+
+/* arrow icon (span tag) */
+#back-top span {
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin-bottom: 7px;
+	background: #ddd url(http://webdesignerwall.com/demo/scroll-to-top/up-arrow.png) no-repeat center center;
+    background-size: contain;
+
+	/* rounded corners */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+	/* transition */
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	transition: 1s;
+}
+#back-top a:hover span {
+	background-color: #777;
+}
+
+#my-awesome-dropzone
+{
+    height:40px;
+    border: 1px solid black;
+    width:40px; 
+}
